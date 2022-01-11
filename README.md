@@ -1,1 +1,2 @@
-# openmp
+# openmp tutuorial sources
+
