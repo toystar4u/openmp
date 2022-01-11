@@ -1,0 +1,5 @@
+
+
+
+void seed();
+double random();
