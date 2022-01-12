@@ -50,4 +50,6 @@ int main ()
     }
 
     pi = step * sum;
+
+    return 0;
 }
