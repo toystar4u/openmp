@@ -3,7 +3,7 @@
 #include <omp.h>
 
 /*
-    gcc -fopenmp check_device.c -o check_device
+    gcc -fopenmp  check_device.c -o check_device
 */
 
 

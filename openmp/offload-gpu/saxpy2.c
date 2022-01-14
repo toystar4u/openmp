@@ -11,7 +11,7 @@ void saxpy(float *x, float *y) {
 	double tb, te;
 	tb = omp_get_wtime();
 	
-    // method 1
+    // method 1 :: too may data copy
 	//#pragma omp target map(to:x[0:SZ]) map(tofrom:y[0:SZ])
 	//#pragma omp parallel for smid
     
